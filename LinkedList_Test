@@ -1,0 +1,18 @@
+### 测试使用Java封装的双向循环链表 LinkedList
+import java.util.*;  # java.util.LinkedList
+import java.lang.*;
+import java.io.*;
+
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		int[] a = {20,30,40};
+		int b;
+		LinkedList<Integer> dl = new LinkedList<Integer>();
+		dl.addFirst(20);
+		dl.addLast(40);
+		dl.add(1,30);
+		b = dl.get(2);
+		System.out.print(dl);
+		System.out.print(b);
+	}
