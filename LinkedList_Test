@@ -15,4 +15,7 @@ import java.io.*;
 		b = dl.get(2);
 		System.out.print(dl);
 		System.out.print(b);
+		dl.remove();
+		dl.remove(1);
+		System.out.print(dl);
 	}
